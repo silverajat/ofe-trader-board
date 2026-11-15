@@ -1,5 +1,5 @@
 Ref,Value,Footprint,LCSC,MPN,Fitted by,Note
-BZ1,3V active,Buzzer_12x9.5RM7.6,,"TMB12A03 3 V active buzzer, 7.6 mm pitch (C96222)",hand,
+BZ1,3V active,Buzzer_12x9.5RM7.6,C96222,Huaneng TMB12A03 3 V active buzzer,JLC,
 C1,1u,C_0603_1608Metric,C15849,CL10A105KB8NNNC 50V,JLC,25V
 C2,470u 25V,CP_Elec_10x10.5,C3351,RVT1E471M1010,JLC,hold-up for power-fail warning
 C3,22u,C_0805_2012Metric,C45783,CL21A226MAQNNNE 25V,JLC,
@@ -150,22 +150,22 @@ FB1,600R@100MHz,L_0603_1608Metric,C1002,GZ1608D601TF,JLC,
 FB2,600R@100MHz,L_0603_1608Metric,C1002,GZ1608D601TF,JLC,
 FB3,600R@100MHz,L_0603_1608Metric,C1002,GZ1608D601TF,JLC,
 FB4,600R@100MHz,L_0603_1608Metric,C1002,GZ1608D601TF,JLC,
-J1,12V DC in,BarrelJack_Horizontal,,"XKB DC-005-5A-2.0 barrel jack, 5.5/2.1 mm (C381116)",hand,"5.5/2.1 mm, centre positive"
+J1,12V DC in,BarrelJack_Horizontal,C381116,"XKB DC-005-5A-2.0 barrel jack, 5.5/2.1 mm",JLC,"5.5/2.1 mm, centre positive"
 J2,USB-C PD in,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948,TYPE-C-31-M-12,JLC,
 J3,JTAG,PinHeader_1x06_P2.54mm_Vertical,,"6 pins from the 1x40 header (C2337), optional",hand,Digilent 6-pin JTAG order: VREF TMS TCK TDO TDI GND
 J4,microSD DM3AT-SF-PEJM5,microSD_HC_Hirose_DM3AT-SF-PEJM5,C114218,DM3AT-SF-PEJM5,JLC,
 J6,USB-C JTAG/UART,USB_C_Receptacle_HRO_TYPE-C-31-M-12,C165948,TYPE-C-31-M-12,JLC,
 J7,ESP UART,PinHeader_1x04_P2.54mm_Vertical,,"4 pins from the 1x40 header (C2337), optional",hand,
-J8,E-STOP (NC),"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",,KF128-5.08-2P screw terminal (C474952),hand,
-J9,"TAMPER (NC, jumper if unused)",PinHeader_1x02_P2.54mm_Vertical,,2 pins from the 1x40 header (C2337) + jumper cap,hand,
-J10,ARM KEY,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",,KF128-5.08-2P screw terminal (C474952),hand,
-J11,OLED,PinSocket_1x04_P2.54mm_Vertical,,1x4 2.54 mm female header (C2718488),hand,
-J12,FAN,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,,JST B3B-PH-K-S (C131339),hand,"1 GND (switched), 2 +5V, 3 tach"
-J13,PMOD JA,PinSocket_2x06_P2.54mm_Horizontal,,"CJT A2541HWR-2x6P right-angle 2x6 female socket, 2.54 mm (C5333437)",hand,"PMOD host port: right-angle 2x6 female, 2.54 mm"
-JP1,BOOT MIO5,PinHeader_1x03_P2.54mm_Vertical,,3 pins from the 1x40 header (C2337) + jumper cap,hand,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
-JP2,BOOT MIO4,PinHeader_1x03_P2.54mm_Vertical,,3 pins from the 1x40 header (C2337) + jumper cap,hand,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
-JP3,WDT OFF,PinHeader_1x02_P2.54mm_Vertical,,2 pins from the 1x40 header (C2337); jumper only for bench work,hand,fit = watchdog disabled
-JP4,BYPASS,PinHeader_1x02_P2.54mm_Vertical,,2 pins cut from a 1x40 2.54 mm header (C2337) + jumper cap,hand,
+J8,E-STOP (NC),"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",C474952,KF128-5.08-2P screw terminal,JLC,
+J9,"TAMPER (NC, jumper if unused)",PinHeader_1x02_P2.54mm_Vertical,C32713268,hanxia PZ2.54-1x2P straight header,JLC,
+J10,ARM KEY,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",C474952,KF128-5.08-2P screw terminal,JLC,
+J11,OLED,PinSocket_1x04_P2.54mm_Vertical,C2718488,BOOMELE 2.54-1*4P female header,JLC,
+J12,FAN,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,C131339,JST B3B-PH-K-S,JLC,"1 GND (switched), 2 +5V, 3 tach"
+J13,PMOD JA,PinSocket_2x06_P2.54mm_Horizontal,C5333437,CJT A2541HWR-2x6P right-angle 2x6 female socket,JLC,"PMOD host port: right-angle 2x6 female, 2.54 mm"
+JP1,BOOT MIO5,PinHeader_1x03_P2.54mm_Vertical,C49257,BOOMELE 2.54-1*3P straight header,JLC,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
+JP2,BOOT MIO4,PinHeader_1x03_P2.54mm_Vertical,C49257,BOOMELE 2.54-1*3P straight header,JLC,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
+JP3,WDT OFF,PinHeader_1x02_P2.54mm_Vertical,C32713268,hanxia PZ2.54-1x2P straight header,JLC,fit = watchdog disabled
+JP4,BYPASS,PinHeader_1x02_P2.54mm_Vertical,C32713268,hanxia PZ2.54-1x2P straight header,JLC,
 L1,10u 3.5A,L_Taiyo-Yuden_NR-80xx,C37429,SWPA8040S100MT (8x8),JLC,
 L2,2.2u 3A,L_Taiyo-Yuden_NR-40xx,C83423,SWPA4020S2R2MT (4x4),JLC,
 L3,2.2u 3A,L_Taiyo-Yuden_NR-40xx,C83423,SWPA4020S2R2MT (4x4),JLC,
