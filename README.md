@@ -1,6 +1,6 @@
 # OFE trader board (rev A)
 
-A custom Zynq-7020 board built as the hardware side of a crypto trading system: the ARM cores run
+A custom Zynq-7000 board built as the hardware side of a crypto trading system: the ARM cores run
 the trading jobs, the FPGA keeps live order books and an independent hardware risk gate, and a
 physical arm key and E-stop gate every order.
 
@@ -9,7 +9,7 @@ physical arm key and E-stop gate every order.
 ## Hardware
 | | |
 |---|---|
-| SoC | Xilinx/AMD **XC7Z020-1CLG400C**: dual Cortex-A9 + Artix-7-class FPGA, 400-ball 0.8 mm BGA |
+| SoC | Xilinx/AMD **XC7Z010-1CLG400C** (rev A build; the board also takes the pin-compatible XC7Z020): dual Cortex-A9 + Artix-7-class FPGA, 400-ball 0.8 mm BGA |
 | Memory | **512 MB DDR3L** (MT41K256M16TW-107), 1.35 V, point-to-point x16 |
 | PCB | **6 layers**, 130 x 100 mm, 1.6 mm, JLC06161H-1080 impedance stackup, via-in-pad (epoxy filled and capped), ENIG |
 | Boot / storage | microSD (Linux runs from a high-endurance card) |

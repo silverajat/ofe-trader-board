@@ -50,7 +50,7 @@ On the BOM page:
    - the LED polarity.
 
    If one is rotated, fix it there or tell me.
-3. The **Zynq (C2988113)** is an Extended part with low stock. If it needs "pre-order", that
+3. The **Zynq is the XC7Z010 (C2843417)** since 15 Nov (same package and pins as the XC7Z020, US$34 cheaper; banks 34/35 only). It is an Extended part with low stock. If it needs "pre-order", that
    adds days.
 
 ## Parts you solder yourself

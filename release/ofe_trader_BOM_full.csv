@@ -312,7 +312,7 @@ TP14,TP UART0_RX,TestPoint_Pad_D1.0mm,,bare pad,hand,
 TP15,TP GND,TestPoint_Pad_D1.0mm,,bare pad,hand,
 TP16,TP GND,TestPoint_Pad_D1.0mm,,bare pad,hand,
 TP17,TP GND,TestPoint_Pad_D1.0mm,,bare pad,hand,
-U1,XC7Z020-1CLG400C,Xilinx_CLG400,C2988113,,JLC,"Zynq-7020, -1 speed grade"
+U1,XC7Z010-1CLG400C,Xilinx_CLG400,C2843417,,JLC,"Zynq-7010, -1 speed grade"
 U2,MT41K256M16TW-107:P,Micron_FBGA-96_8x14mm_Layout9x16_P0.8mm,C253882,,JLC,"512 MB DDR3L, run at 800 Mb/s (UG933 App. A: +-150 ps skew budget)"
 U4,FT2232HL,LQFP-64_10x10mm_P0.5mm,C27882,,JLC,
 U5,ESP32-C3-WROOM-02-N4,ESP32-C3-WROOM-02,C2934560,,JLC,
