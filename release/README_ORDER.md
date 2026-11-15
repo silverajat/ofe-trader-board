@@ -56,6 +56,8 @@ On the BOM page:
    and temperature sensor (U27) are not fitted in rev A. Both FPGA and RAM are Extended parts with limited stock;
    if one needs "pre-order", that adds days.
 
+**Not fitted on this build (15 Nov):** the secure element (U25), temperature sensor (U27) and the USB-C PD power input (J2, U6, R3). Power comes from the 12 V barrel jack. The pads stay, so any of them can be added later.
+
 ## Parts you solder yourself
 See `HAND_SOLDER.md` for the list (barrel jack, screw terminals, headers, buzzer, OLED socket,
 fan connector, PMOD socket and the like). Order them from LCSC in the same cart.
