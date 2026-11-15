@@ -20,7 +20,7 @@ silkscreen-near-edge (JLC trims silk at the edge) and 1 copper sliver.
 | Impedance control | **Yes, JLC06161H-1080** | the stackup the DDR widths were sized for |
 | Via covering | **Epoxy filled & capped** (POFV) | via-in-pad under the Zynq and RAM. Free on 6+ layers |
 | Min via hole / diameter | **0.2 mm / 0.4 mm** | via-in-pad under the Zynq |
-| Surface finish | **ENIG** | flat pads for the 0.8 mm and 0.5 mm BGAs (HASL isn't flat enough) |
+| Surface finish | **OSP** (15 Nov; ENIG also fine, +US$18) | flat pads for the 0.8 mm BGAs, like ENIG (HASL isn't flat enough). OSP keeps ~6 months on the shelf: fine for boards assembled now, the 3 spare bare boards age |
 | Outer copper | 1 oz | |
 | Inner copper | 0.5 oz | |
 | Solder mask | Green (any colour works; green is fastest) | |
@@ -50,18 +50,21 @@ On the BOM page:
    - the LED polarity.
 
    If one is rotated, fix it there or tell me.
-3. The **Zynq is the XC7Z010 (C2843417)** since 15 Nov (same package and pins as the XC7Z020, US$34 cheaper; banks 34/35 only). It is an Extended part with low stock. If it needs "pre-order", that
-   adds days.
+3. The **Zynq is the XC7Z010-2CLG400I (C2840993)** since 15 Nov (same package and pins as the XC7Z020, banks 34/35 only;
+   the -2 industrial grade is cheaper at JLC than the -1 commercial). The **RAM is the Samsung K4B4G1646E-BYMA (C500275)**,
+   the same JEDEC 4 Gb x16 DDR3L as the Micron in the same 96-ball footprint, US$9 cheaper. The secure element (U25)
+   and temperature sensor (U27) are not fitted in rev A. Both FPGA and RAM are Extended parts with limited stock;
+   if one needs "pre-order", that adds days.
 
 ## Parts you solder yourself
 See `HAND_SOLDER.md` for the list (barrel jack, screw terminals, headers, buzzer, OLED socket,
 fan connector, PMOD socket and the like). Order them from LCSC in the same cart.
 
 ## Expected cost (rough, 12 Nov 2026)
-For 5 boards with 2 assembled, before shipping, about US$450–550:
-- **Bare board:** about US$60–90 (6-layer, impedance control, ENIG).
-- **Zynq XC7Z020:** 2 × ~US$93.
-- **RAM:** 2 × ~US$16.
+For 5 boards with 2 assembled, before shipping, about US$500 (JLC quote, 15 Nov):
+- **Bare board:** about US$115 (6-layer, impedance control, OSP).
+- **Zynq XC7Z010-2:** 2 × ~US$58.
+- **RAM:** 2 × ~US$12.4.
 - **Everything else:** ~US$25 per board.
 - **Setup fees:** about US$3 for each Extended part. JLC shows the exact count, and several parts
   are Basic, which have no fee.
