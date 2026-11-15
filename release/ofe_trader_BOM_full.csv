@@ -161,7 +161,7 @@ J9,"TAMPER (NC, jumper if unused)",PinHeader_1x02_P2.54mm_Vertical,,2 pins from 
 J10,ARM KEY,"TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal",,KF128-5.08-2P screw terminal (C474952),hand,
 J11,OLED,PinSocket_1x04_P2.54mm_Vertical,,1x4 2.54 mm female header (C2718488),hand,
 J12,FAN,JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,,JST B3B-PH-K-S (C131339),hand,"1 GND (switched), 2 +5V, 3 tach"
-J13,PMOD JA,PinSocket_2x06_P2.54mm_Horizontal,,"CJT A2541WR-2x6P right-angle 2x6 female, 2.54 mm (C239337)",hand,"PMOD host port: right-angle 2x6 female, 2.54 mm"
+J13,PMOD JA,PinSocket_2x06_P2.54mm_Horizontal,,"CJT A2541HWR-2x6P right-angle 2x6 female socket, 2.54 mm (C5333437)",hand,"PMOD host port: right-angle 2x6 female, 2.54 mm"
 JP1,BOOT MIO5,PinHeader_1x03_P2.54mm_Vertical,,3 pins from the 1x40 header (C2337) + jumper cap,hand,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
 JP2,BOOT MIO4,PinHeader_1x03_P2.54mm_Vertical,,3 pins from the 1x40 header (C2337) + jumper cap,hand,"1-2 = high, 2-3 = low. SD boot: both high; JTAG boot: both low"
 JP3,WDT OFF,PinHeader_1x02_P2.54mm_Vertical,,2 pins from the 1x40 header (C2337); jumper only for bench work,hand,fit = watchdog disabled

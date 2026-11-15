@@ -13,7 +13,7 @@ JLC places every SMD part. These are cheaper and sturdier hand-soldered:
 | J10 | ARM KEY | KF128-5.08-2P screw terminal (C474952) |
 | J11 | OLED | 1x4 2.54 mm female header (C2718488) |
 | J12 | FAN | JST B3B-PH-K-S (C131339) |
-| J13 | PMOD JA | CJT A2541WR-2x6P right-angle 2x6 female, 2.54 mm (C239337) |
+| J13 | PMOD JA | CJT A2541HWR-2x6P right-angle 2x6 female socket, 2.54 mm (C5333437) |
 | JP1 | BOOT MIO5 | 3 pins from the 1x40 header (C2337) + jumper cap |
 | JP2 | BOOT MIO4 | 3 pins from the 1x40 header (C2337) + jumper cap |
 | JP3 | WDT OFF | 2 pins from the 1x40 header (C2337); jumper only for bench work |
