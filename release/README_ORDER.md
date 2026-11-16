@@ -50,8 +50,9 @@ On the BOM page:
    - the LED polarity.
 
    If one is rotated, fix it there or tell me.
-3. The **Zynq is the XC7Z010-2CLG400I (C2840993)** since 15 Nov (same package and pins as the XC7Z020, banks 34/35 only;
-   the -2 industrial grade is cheaper at JLC than the -1 commercial). The **RAM is the Samsung K4B4G1646E-BYMA (C500275)**,
+3. The **Zynq is the XC7Z010-1CLG400I (C2840994)** since 16 Nov (same package and pins as the XC7Z020, banks 34/35 only).
+   The -2 industrial grade (C2840993) sold out at JLC on order day; the -1 has the same die and balls, with the CPU at up to
+   667 MHz instead of 766. The RAM speed (800 Mb/s) is unaffected. The **RAM is the Samsung K4B4G1646E-BYMA (C500275)**,
    the same JEDEC 4 Gb x16 DDR3L as the Micron in the same 96-ball footprint, US$9 cheaper. The secure element (U25)
    and temperature sensor (U27) are not fitted in rev A. Both FPGA and RAM are Extended parts with limited stock;
    if one needs "pre-order", that adds days.
@@ -65,7 +66,7 @@ fan connector, PMOD socket and the like). Order them from LCSC in the same cart.
 ## Expected cost (rough, 12 Nov 2026)
 For 5 boards with 2 assembled, before shipping, about US$500 (JLC quote, 15 Nov):
 - **Bare board:** about US$115 (6-layer, impedance control, OSP).
-- **Zynq XC7Z010-2:** 2 × ~US$58.
+- **Zynq XC7Z010-1:** 2 × ~US$62.
 - **RAM:** 2 × ~US$12.4.
 - **Everything else:** ~US$25 per board.
 - **Setup fees:** about US$3 for each Extended part. JLC shows the exact count, and several parts
